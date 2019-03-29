@@ -160,6 +160,26 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.head {
+  display: flex;
+  justify-content: center;
+}
+.head .head-helper {
+  display: flex;
+  flex-direction: column;
+}
+.head .head-helper h1 {
+  margin-bottom: 1.3rem;
+  font-size: 4rem;
+}
+.head .head-helper .nav_top {
+  display: flex;
+  justify-content: space-between;
+}
+.head .head-helper .nav_top a {
+  text-decoration: none;
+  font-size: 1.4rem;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -175,7 +195,6 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
-  border: 1px solid red;
 }
 .home .space-images {
   display: flex;
