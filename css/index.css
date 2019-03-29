@@ -213,6 +213,18 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 .home .space-images {
   display: flex;
@@ -244,6 +256,8 @@ footer {
 }
 .home .visit-planets p {
   margin-top: 13px;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 .home .walk {
   margin-top: 60px;
@@ -273,6 +287,8 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 .home .walk .walk-text .btn {
   background-color: #22283A;
