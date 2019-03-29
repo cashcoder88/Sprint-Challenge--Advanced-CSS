@@ -112,7 +112,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [x]  Use at least 2 parameters to create your button
 
-* [(Did this, but not working) ] Create a hover state that swaps the background color and font color of the base button styles.
+* [(Did this, working in Codepen,but not working) ] Create a hover state that swaps the background color and font color of the base button styles.
 
 ### Mobile Design
 
