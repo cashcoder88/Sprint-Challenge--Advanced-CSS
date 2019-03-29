@@ -4,6 +4,10 @@
 
   .intro {
 
+      
+      .main-image {
+          border-radius: 1rem;
+      }
     h2 {
       padding: 15px;
     }
@@ -15,9 +19,9 @@
   }
 
   .space-images {
-    display: flex;
+    .flex();
     flex-wrap: wrap;
-    width: 100%;
+    .widthOne()
 
     img {
       width: 28%;
@@ -43,7 +47,7 @@
     margin-top: 60px;
     border-top: 1px solid @main-border-color;
     padding: 50px 60px;
-    display: flex;
+    .flex();
     justify-content: center;
 
     .walk-text {
@@ -58,7 +62,8 @@
       }
 
       .btn {
-      }
+          .button-para(@btn-bg-color, white);
+        }
     }
 
     .walk-img {
@@ -66,7 +71,7 @@
       margin-left: 4%;
       
       img {
-        width: 100%;
+        .widthOne()
         height: auto;
         border-radius: 10px;
       }
