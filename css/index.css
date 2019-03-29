@@ -163,22 +163,27 @@ p {
 .head {
   display: flex;
   justify-content: center;
+  background: #F6F6F6;
 }
 .head .head-helper {
   display: flex;
   flex-direction: column;
 }
 .head .head-helper h1 {
-  margin-bottom: 1.3rem;
+  margin: 1.3rem 0;
   font-size: 4rem;
+  justify-content: center;
 }
 .head .head-helper .nav_top {
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  margin: 0 0 1rem 0;
 }
 .head .head-helper .nav_top a {
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  color: #5E6164;
 }
 footer {
   color: #22283B;
