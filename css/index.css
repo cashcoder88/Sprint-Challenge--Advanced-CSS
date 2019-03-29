@@ -200,8 +200,33 @@ footer {
   justify-content: center;
   align-items: center;
 }
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 .home .intro .main-image {
   border-radius: 1rem;
+  animation-duration: 2s;
+  animation-name: bounceIn;
 }
 @media (max-width: 500px) {
   .home .intro .main-image {
@@ -215,16 +240,6 @@ footer {
   padding: 0 15px;
   animation-duration: 3s;
   animation-name: slidein;
-}
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
 }
 .home .space-images {
   display: flex;
