@@ -171,8 +171,13 @@ p {
 }
 .head .head-helper h1 {
   margin: 1.3rem 0;
-  font-size: 4rem;
+  font-size: 5rem;
   justify-content: center;
+}
+@media (max-width: 500px) {
+  .head .head-helper h1 {
+    font-size: 1rem;
+  }
 }
 .head .head-helper .nav_top {
   display: flex;
@@ -241,14 +246,24 @@ footer {
   margin-bottom: 26px;
 }
 .home .walk .walk-text .btn {
+  background-color: #22283A;
+  color: white;
   width: 30%;
   height: 4rem;
-  background-color: #22283A;
   border-radius: 5px;
-  color: white;
   padding: 10px 0;
   font-size: 2rem;
   text-align: center;
+  cursor: pointer;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: white;
+  color: #22283A;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    width: 100%;
+  }
 }
 .home .walk .walk-img {
   width: 46%;
